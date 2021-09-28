@@ -2,6 +2,8 @@ using System.Linq;
 using api.Models;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using System;
 
 //Controlador para el casting de casa película
 namespace api.Controllers
@@ -10,6 +12,12 @@ namespace api.Controllers
     [Route("api/movies/{movieId}/casts")]  //ruta que sólo se puede acceder desde el recurso movies indicando un número de id
     public class CastController: ControllerBase
     {
+        private ILogger<CastController> _logger;
+        //contrucctor para la inyección de dependencias
+        public CastController(ILogger<CastController> logger){
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));   //si es nulo arroja excepción
+        }
+
         [HttpGet]
         public IActionResult GetCasts(int movieId){   //Devuelve todo el casting de la película indicada, movieId lo recibe de la ruta
             var movie = MoviesDataStore.Current.Movies.FirstOrDefault(x=> x.Id == movieId);
@@ -104,7 +112,7 @@ namespace api.Controllers
                 Character = castFromStore.Character
             };
 
-    //ModelState dentro del ApplyTo da error por lo que se necesita instalar nuget Newtonsoft.Json .Es temporal ya que se está revisando para que no de el error
+            //ModelState dentro del ApplyTo da error por lo que se necesita instalar nuget Newtonsoft.Json .Es temporal ya que se está revisando para que no de el error
             patchDocument.ApplyTo(castToPatch, ModelState);  //aplicamos los cambios
 
             if(!ModelState.IsValid){

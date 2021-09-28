@@ -229,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\x51095016\\Documents\\00 SILVIA\\Apuntes\\AplicaciónPelículas\\api\\api.csproj",
+      "projectUniqueName": "C:\\Users\\x51095016\\Documents\\00 SILVIA\\Apuntes\\App-Movies\\api\\api.csproj",
       "projectName": "api",
-      "projectPath": "C:\\Users\\x51095016\\Documents\\00 SILVIA\\Apuntes\\AplicaciónPelículas\\api\\api.csproj",
+      "projectPath": "C:\\Users\\x51095016\\Documents\\00 SILVIA\\Apuntes\\App-Movies\\api\\api.csproj",
       "packagesPath": "C:\\Users\\x51095016\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\x51095016\\Documents\\00 SILVIA\\Apuntes\\AplicaciónPelículas\\api\\obj\\",
+      "outputPath": "C:\\Users\\x51095016\\Documents\\00 SILVIA\\Apuntes\\App-Movies\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\x51095016\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "txJGjgRnxw2IjvBK8yDtFiVIwUZ5/goWv7+/TiSQPZn+z2HAinvB7ylh1yIhzzeUU/tfUzSqN79uYakGccuHeA==",
+  "dgSpecHash": "29DNCp92Ag8Erzn58sSTVLPQiuY/NY3IgJqkKj9uRKg1yBH4AM0Zu1+pquzVEa0ZjhIFwVXROcOzgNVTI6/CRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\x51095016\\Documents\\00 SILVIA\\Apuntes\\AplicaciónPelículas\\api\\api.csproj",
+  "projectFilePath": "C:\\Users\\x51095016\\Documents\\00 SILVIA\\Apuntes\\App-Movies\\api\\api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\x51095016\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.0-rc.1.21452.15\\microsoft.aspnetcore.jsonpatch.6.0.0-rc.1.21452.15.nupkg.sha512",
     "C:\\Users\\x51095016\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.9\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.9.nupkg.sha512",

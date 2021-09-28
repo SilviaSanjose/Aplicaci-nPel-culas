@@ -24,3 +24,6 @@ namespace api
                 });
     }
 }
+
+/*CreateHostBuilder ya incluye un logger, lo que nos permite inyectar dependencias sin implementar nada más. 
+Lo habitual es hacerlo en el contructor de cada clase (ejem: CastController*/
