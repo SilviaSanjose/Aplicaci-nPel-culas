@@ -33,7 +33,7 @@ namespace api.Controllers
             {
                 throw new InvalidOperationException();
             
-                var movie = MoviesDataStore.Current.Movies.FirstOrDefault(x=> x.Id == movieId); //busca la película con el
+                var movie = MoviesDataStore.Current.Movies.FirstOrDefault(x=> x.Id == movieId); //busca la película con el id
                 if(movie == null){ //si no existe la película
                     return NotFound();
                 }
