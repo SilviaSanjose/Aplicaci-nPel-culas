@@ -29,15 +29,26 @@ namespace api.Controllers
 
         [HttpGet("{id}", Name="GetCast")]   //el nombre que usan las rutas de redirección
         public IActionResult GetCast(int movieId, int id){   //devuelve un único actor url/api/movies/a/casts/1   //GetActionResult
-            var movie = MoviesDataStore.Current.Movies.FirstOrDefault(x=> x.Id == movieId); //busca la película con el
-            if(movie == null){ //si no existe la película
-                return NotFound();
+            try
+            {
+                throw new InvalidOperationException();
+            
+                var movie = MoviesDataStore.Current.Movies.FirstOrDefault(x=> x.Id == movieId); //busca la película con el
+                if(movie == null){ //si no existe la película
+                    return NotFound();
+                }
+                var cast = movie.Casts.FirstOrDefault(x=> x.Id == id);  //busca el cast
+                if(cast == null){  //si no existe
+                    _logger.LogInformation($"El cast con id {id} no fue encontrado");
+                    return NotFound();
+                }
+                return Ok(cast);  //movie
             }
-            var cast = movie.Casts.FirstOrDefault(x=> x.Id == id);  //busca el cast
-            if(cast == null){  //si no existe
-                return NotFound();
+            catch (System.Exception ex)
+            {
+                _logger.LogCritical($"Un error ocurrió al buscar el cast con id {id}", ex);
+                return StatusCode(500, "Ocurrió un error al realizar la petición");  //devolvemos un error personalizado al usuario
             }
-            return Ok(cast);  //movie
 
         }
 
