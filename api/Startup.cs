@@ -28,8 +28,8 @@ namespace api
 
 
             //Inyección de dependencias: Con sólo cambiar un parámetro no hace falta tocar más código en el contructor de CastController ni en clases
-            //services.AddTransient<IMailService, LocalMailService>();  //comentar para usar CloudMail
-            services.AddTransient<IMailService, CloudMailService>();   //comentar para usar LocalMail
+            services.AddTransient<IMailService, LocalMailService>();  //comentar para usar CloudMail
+            //services.AddTransient<IMailService, CloudMailService>();   //comentar para usar LocalMail
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
