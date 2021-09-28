@@ -1,0 +1,25 @@
+@model MovieViewModel
+@{
+    ViewBag.Title = "Editar películas";
+}
+
+
+<h2>Edición de películas</h2>
+<div>
+    
+    <form method="POST">
+        <div class="mb-3">
+        <label asp-for="Name">Nombre</label>
+        <input type="text" asp-for="Name" class="form-control">
+    @*Mensaje de error: Si en vez de Name se pone asp-validation-summary="All", sería para todos los campos*@
+        <span asp-validation-for="Name" class="text-danger"></span> 
+        </div>
+        <div class="mb-3">
+        <label  asp-for="Genre">Género</label>
+        <input type="text" asp-for="Genre" class="form-control">
+        <span asp-validation-for="Genre" class="text-danger"></span>
+        </div>
+        <input type="submit" class="btn btn-primary" value="Guardar">
+        <a asp-controller = "App" asp-action ="Index" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>
