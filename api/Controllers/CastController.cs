@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
+using api.Services;
 
 //Controlador para el casting de casa película
 namespace api.Controllers
@@ -13,9 +14,13 @@ namespace api.Controllers
     public class CastController: ControllerBase
     {
         private ILogger<CastController> _logger;
+        private IMailService _localMailService;
+
+
         //contrucctor para la inyección de dependencias
-        public CastController(ILogger<CastController> logger){
+        public CastController(ILogger<CastController> logger, IMailService localMailService){
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));   //si es nulo arroja excepción
+            _localMailService = localMailService ?? throw new ArgumentNullException(nameof(localMailService)); //logger?¿
         }
 
         [HttpGet]
@@ -151,7 +156,7 @@ namespace api.Controllers
             if(castFromStore == null){
                 return NotFound();
             }
-
+            _localMailService.Send("Recurso eliminado", $"El recurso con id {id} fué eliminado");
             movie.Casts.Remove(castFromStore);
 
             return NoContent();

@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using api.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -24,6 +25,11 @@ namespace api
             })
             .AddXmlDataContractSerializerFormatters() //indicar que acepta formato XML
             .AddNewtonsoftJson();
+
+
+            //Inyección de dependencias: Con sólo cambiar un parámetro no hace falta tocar más código en el contructor de CastController ni en clases
+            //services.AddTransient<IMailService, LocalMailService>();  //comentar para usar CloudMail
+            services.AddTransient<IMailService, CloudMailService>();   //comentar para usar LocalMail
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
