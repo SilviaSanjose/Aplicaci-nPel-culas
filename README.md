@@ -16,3 +16,14 @@ API:
   => Microsoft.EntityFrameworkCore
 
   => Microsoft.EntityFrameworkCore.Sqlite
+
+  => Microsoft.EntityFrameworkCore.Design Para trabajar con migraciones
+  Consola: dotnet ef migrations add NombreDeLaMIgracionQueQuieras
+  Para hacer migraciones desde consola: dotnet ef database update
+  \*Es necesario tener instalado globalmente dotnet tool (dotnet tools install --global dotnet-ef)
+
+  \*Migraciones automáticamente de genera el código en el main de program.cs y no hay que usar dotnet ef database update
+
+  # appsetting.json
+
+  Archivo donde se guardan las configuraciones

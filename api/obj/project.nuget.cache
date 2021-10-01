@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "r5ysYYWpA2HY7k5RLp3qztrQyRz6J1wAiUN9+7KCedrUmICQKf+kW8cBsMYH0m2l8q9MOAFQOiUuUImfglFIWg==",
+  "dgSpecHash": "nfYMupp0FJMoIqYGNTm9AS281rZiOZHArRHDwLT4FDeKg7F6BpSDuxlxyNcpXrkhQWNFevSTSCUM3aZZOfmudA==",
   "success": true,
   "projectFilePath": "C:\\Users\\x51095016\\Documents\\00 SILVIA\\Apuntes\\App-Movies\\api\\api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\x51095016\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\x51095016\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.0-rc.1.21452.15\\microsoft.aspnetcore.jsonpatch.6.0.0-rc.1.21452.15.nupkg.sha512",
     "C:\\Users\\x51095016\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.9\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.9.nupkg.sha512",
     "C:\\Users\\x51095016\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -12,6 +13,7 @@
     "C:\\Users\\x51095016\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.10\\microsoft.entityframeworkcore.5.0.10.nupkg.sha512",
     "C:\\Users\\x51095016\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.10\\microsoft.entityframeworkcore.abstractions.5.0.10.nupkg.sha512",
     "C:\\Users\\x51095016\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.10\\microsoft.entityframeworkcore.analyzers.5.0.10.nupkg.sha512",
+    "C:\\Users\\x51095016\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.10\\microsoft.entityframeworkcore.design.5.0.10.nupkg.sha512",
     "C:\\Users\\x51095016\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.10\\microsoft.entityframeworkcore.relational.5.0.10.nupkg.sha512",
     "C:\\Users\\x51095016\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\5.0.10\\microsoft.entityframeworkcore.sqlite.5.0.10.nupkg.sha512",
     "C:\\Users\\x51095016\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\5.0.10\\microsoft.entityframeworkcore.sqlite.core.5.0.10.nupkg.sha512",

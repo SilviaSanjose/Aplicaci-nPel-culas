@@ -53,3 +53,43 @@
 2021-10-01 10:45:56.4671|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
 2021-10-01 10:45:56.4671|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\x51095016\Documents\00 SILVIA\Apuntes\App-Movies\api
 2021-10-01 10:55:12.5808|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2021-10-01 10:56:58.2641|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-10-01 10:56:58.2870|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-10-01 10:56:58.2870|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-10-01 10:56:58.2903|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-10-01 10:56:58.2903|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\x51095016\Documents\00 SILVIA\Apuntes\App-Movies\api
+2021-10-01 11:36:14.6778|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2021-10-01 13:39:17.8295|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-10-01 13:39:17.8518|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-10-01 13:39:17.8552|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-10-01 13:39:17.8552|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-10-01 13:39:17.8552|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\x51095016\Documents\00 SILVIA\Apuntes\App-Movies\api
+2021-10-01 13:42:37.0512|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2021-10-01 13:43:33.6066|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-10-01 13:43:33.6310|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-10-01 13:43:33.6337|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-10-01 13:43:33.6337|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-10-01 13:43:33.6337|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\x51095016\Documents\00 SILVIA\Apuntes\App-Movies\api
+2021-10-01 13:46:21.1073|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2021-10-01 13:47:29.4748|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-10-01 13:47:29.4971|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-10-01 13:47:29.4971|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-10-01 13:47:29.4971|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-10-01 13:47:29.4971|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\x51095016\Documents\00 SILVIA\Apuntes\App-Movies\api
+2021-10-01 13:53:02.8679|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2021-10-01 13:53:48.6857|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-10-01 13:53:48.7138|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-10-01 13:53:48.7181|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-10-01 13:53:48.7181|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-10-01 13:53:48.7181|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\x51095016\Documents\00 SILVIA\Apuntes\App-Movies\api
+2021-10-01 13:54:55.6622|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-10-01 13:54:55.6883|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-10-01 13:54:55.6883|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-10-01 13:54:55.6883|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-10-01 13:54:55.6978|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\x51095016\Documents\00 SILVIA\Apuntes\App-Movies\api
+2021-10-01 14:23:51.9339|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2021-10-01 14:23:51.9558|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2021-10-01 14:23:51.9928|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-10-01 14:23:51.9928|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-10-01 14:23:51.9928|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\x51095016\Documents\00 SILVIA\Apuntes\App-Movies\api
+2021-10-01 14:28:14.3831|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
