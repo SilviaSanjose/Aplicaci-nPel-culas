@@ -48,6 +48,14 @@
               "target": "Package",
               "version": "[5.0.9, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
             "NLog.Web.AspNetCore": {
               "target": "Package",
               "version": "[4.12.0, )"

@@ -11,3 +11,8 @@ API:
   (Tutorial: https://github.com/NLog/NLog/wiki/Tutorial)
   crear archivo nlog.config
   Los logs se guardan en bin/debug/netcore/ file.txt
+
+- Entity Framework
+  => Microsoft.EntityFrameworkCore
+
+  => Microsoft.EntityFrameworkCore.Sqlite
