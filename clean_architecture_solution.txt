@@ -1,0 +1,44 @@
+CREAR SOLUCIÓN CON CLEAN ARCHITECTURE
+
+- Creamos carpeta de la aplicacion (AppName) y en ella el archivo de la solucion:
+	...AppName> dotnet new sln (se crea el archivo "AppName.sln")
+
+- Creamos los distintos proyectos (se crean sus carpetas):
+	*API con la plantilla "webapi"
+		...AppName> dotnet new webapi -n API
+	*Application (lógica de negocio), Domain (entidades) y Persistence (DB) con la plantilla "classlib"
+		...AppName> dotnet new classlib -n Application
+		...AppName> dotnet new classlib -n Domain
+		...AppName> dotnet new classlib -n Persistence
+	
+- Asignamos los proyectos a la solución (se crea el archivo .csproj en cada proyecto):
+	...AppName> dotnet sln add API/
+	...AppName> dotnet sln add Application/
+	...AppName> dotnet sln add Domain/	
+	...AppName> dotnet sln add Persistence/
+	
+- Creamos las dependencias entre proyectos (aparecerán en los archivos .csproj):
+	*API tendrá una referencia a Application
+		...AppName\API> dotnet add reference ../Application/
+	*Application tendrá una referencia a Domain y a Persistence
+		...AppName\Application> dotnet add reference ../Domain/
+		...AppName\Application> dotnet add reference ../Persistence/
+	*Persistence tendrá una referencia a Domain
+		...AppName\Persistence> dotnet add reference ../Domain/
+	
+- Creamos la carpeta para la aplicación de React (Front):
+	...AppName> npx create-react-app react-app-name
+
+
+- Resultado:
+AppName/
+    API/
+        API.csproj
+    Application/
+        Application.csproj
+    Domain/
+        Domain.csproj
+    Persistence/
+        Persistence.csproj
+    react-app-name/
+    AppName.sln
